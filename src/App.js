@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="h-screen w-full text-center p-4 flex flex-col">
+      <header className="mb-5">
+        <h1 className="text-xl font-bold">Winter 2022 Speed Spanish</h1>
+        <h2>Week 1 - The Magic Circle</h2>
       </header>
+      <main className="flex-1">
+        <div className="border-2 p-2">
+          <p>Toggle English or Spanish</p>
+          <p>Button for a new phrase</p>
+          <p>Three parts to the magic circle go here</p>
+        </div>
+      </main>
     </div>
   );
 }
